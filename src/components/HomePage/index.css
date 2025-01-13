@@ -1,0 +1,51 @@
+.home {
+  padding: 2rem;
+}
+
+.home h1 {
+  color: rgb(108, 83, 37);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.home table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.home table th,
+.home table td {
+  padding: 0.8rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.home table th {
+  background-color: rgb(108, 83, 37);
+  color: white;
+}
+
+.home button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  background-color: rgb(108, 83, 37);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home button:hover {
+  background-color: rgb(108, 83, 37);
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 1rem;
+  }
+
+  .home table {
+    font-size: 0.9rem;
+  }
+}
