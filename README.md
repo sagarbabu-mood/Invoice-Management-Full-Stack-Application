@@ -2,7 +2,7 @@ Frontend README
 
 Project Overview
 
-This is the frontend of the Invoice Management System, built using React.js. The application provides an interface for users to:
+This is the frontend of the, built using React.js. The application provides an interface for users to:
 
 Log in or sign up.
 
